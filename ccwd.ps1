@@ -1,0 +1,1 @@
+(pwd).path | clip
