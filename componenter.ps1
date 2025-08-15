@@ -14,10 +14,10 @@ if(-not (Test-Path "angular.json")){
     exit 1
 }
 
-Write-Host "1. Generando componente sin standalone..." -ForegroundColor Blue
-ng generate component $Path --standalone=false
+Write-Host "💻 Generando componente..." -ForegroundColor Blue
+ng generate component $Path
 
-Write-Host "2. generando servicio para el componente" -ForegroundColor Blue
+Write-Host "⚙️ generando servicio para el componente" -ForegroundColor Blue
 ng generate service $Path/$ModuleName
 
-Write-Host "Task completed, enjoy the result :)"
+Write-Host "✅ Task completed, enjoy the result :)"

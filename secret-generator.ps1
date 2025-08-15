@@ -1,0 +1,1 @@
+node C:\Users\kevin\scripts\secret-generator.js
