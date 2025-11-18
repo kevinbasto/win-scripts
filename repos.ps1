@@ -31,7 +31,7 @@ try {
     }
     
     # Verificar que existe el script de Node.js
-    $nodeScript = "C:\Users\kevin\scripts\repos.js"
+    $nodeScript = "C:\Users\never\scripts\repos.js"
     if (-not (Test-Path $nodeScript)) {
         Write-ColorLog "[ERROR] No se encontró el archivo $nodeScript" -Color "Red"
         Write-ColorLog "Asegúrate de que ambos archivos estén en el mismo directorio:" -Color "Yellow"

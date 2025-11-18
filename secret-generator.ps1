@@ -1,1 +1,1 @@
-node C:\Users\kevin\scripts\secret-generator.js
+node C:\Users\never\scripts\secret-generator.js
